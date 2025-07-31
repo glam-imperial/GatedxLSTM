@@ -6,6 +6,8 @@ This repository provides training and evaluation code for the paper
 
 **GatedxLSTM: A Multimodal Affective Computing Approach for Emotion Recognition in Conversations**. [[Paper Link]](https://arxiv.org/abs/2503.20919)
 
+![GatedxLSTM Workflow](./gated_xlstm_01.jpg)
+
 
 Key contributions of GatedxLSTM include:
 - **CLAP-based Cross-modal Alignment**: Incorporating Contrastive Language-Audio Pretraining for improved speech-text alignment.
@@ -23,7 +25,7 @@ Install required dependency packages.
 ### Step 2: Data Preprocessing
 Update the dataset path in `./data/preprocess.py`, then run:
 ```
-python preprocess.py
+python ./data/preprocess.py
 ```
 
 ### Step 3: Training and Inference
